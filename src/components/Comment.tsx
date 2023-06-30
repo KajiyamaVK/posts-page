@@ -1,4 +1,4 @@
-import styles from "./comment.module.css";
+import styles from "./Comment.module.css";
 import { useState } from "react";
 import { ThumbsUp, Trash } from "phosphor-react";
 import { displayDate } from "../functions";
