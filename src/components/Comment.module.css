@@ -1,0 +1,79 @@
+.comment {
+  padding: 0 2.5rem 2.5rem 2.5rem;
+  border-radius: 0 0 8px 8px;
+}
+
+.commentTime {
+  font-size: 0.75rem;
+  color: var(--gray-400);
+  line-height: 1.6;
+}
+
+.commentBox {
+  display: flex;
+  flex: 1;
+  flex-direction: column;
+  background: var(--gray-700);
+  border-radius: 8px;
+  padding: 1rem;
+  width: 35rem;
+}
+
+.commentText {
+  margin-top: 1rem;
+  color: var(--gray-300);
+}
+
+.userInfo {
+  display: flex;
+  gap: 1rem;
+  font-size: 0.875rem;
+  line-height: 1.6;
+}
+
+.userNameTime {
+  display: flex;
+  flex-direction: column;
+}
+
+.button {
+  background: transparent;
+  color: var(--gray-400);
+  justify-content: center;
+  align-items: center;
+  border: 0;
+  cursor: pointer;
+  line-height: 0;
+  transition: background-color 0.1s;
+}
+
+.button:focus {
+  outline: none;
+}
+
+.thumbsUp {
+  margin-top: 1rem;
+  border: none;
+  outline: none;
+}
+
+.thumbsUp:hover {
+  color: var(--green-300);
+}
+
+.isApplaused {
+  color: var(--green-500);
+}
+
+.trash:hover {
+  color: var(--red-500);
+}
+
+.userName {
+  display: block;
+}
+
+button > svg {
+  margin-bottom: -0.1rem;
+  margin-right: 0.55rem;
+}
