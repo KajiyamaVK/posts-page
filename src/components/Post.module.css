@@ -35,6 +35,14 @@
   justify-content: space-between;
 }
 
+@media (max-width: 768px) {
+  .postHeader {
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 20px;
+  }
+}
+
 .postTime {
   font-size: 0.875rem;
   color: var(--gray-400);
@@ -44,9 +52,6 @@
   display: flex;
   align-items: center;
   gap: 1rem;
-}
-
-.authorInfo {
 }
 
 .authorName {

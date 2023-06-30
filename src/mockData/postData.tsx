@@ -17,8 +17,8 @@ export const postData: post[] = [
       <div>
         <p>Fala galeraa ?? </p>
         <p>
-          Acabei de subir mais um projeto no meu portifa. � um projeto que fiz
-          no NLW Return, evento da Rocketseat. O nome do projeto � DoctorCare ??
+          Acabei de subir mais um projeto no meu portifa. É um projeto que fiz
+          no NLW Return, evento da Rocketseat. O nome do projeto é DoctorCare.
         </p>
         <a href="">jane.design/doctorcare </a>
         <a href="">#novoprojeto </a> <a href="">#nlw </a>{" "}

@@ -64,9 +64,7 @@ export default function Post({
           {displayDate(dateTime)}
         </time>
       </header>
-      <div className={styles.content}>
-        <>{content}</>
-      </div>
+      <div className={styles.content}>{content}</div>
 
       <form className={styles.commentForm} onSubmit={handleCommentSubmit}>
         <strong>Deixe seu comentário</strong>

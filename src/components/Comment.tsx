@@ -45,7 +45,7 @@ export default function Comment({
       <header>
         <div className={styles.userInfo}>
           <Avatar src={avatarUrl} />
-          <div>
+          <div className={styles.commentBoxWrapper}>
             <div className={styles.commentBox}>
               <div style={{ display: "flex", justifyContent: "space-between" }}>
                 <div className={styles.userNameTime}>
